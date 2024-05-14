@@ -25,7 +25,7 @@
                 nodejs
                 # bun
                 binaryen
-                wabt
+                # wabt
                 # wasmtime
                 # wasmedge
                 cabal
