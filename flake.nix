@@ -20,20 +20,20 @@
                 pkgs.haskellPackages.happy
                 (pkgs.callPackage ./pkgs/wasm32-wasi-ghc.nix { inherit flavour; })
                 wasi-sdk
-                deno
+                # deno
                 pkgs.cacert
                 nodejs
                 # bun
                 binaryen
                 wabt
-                wasmtime
-                wasmedge
+                # wasmtime
+                # wasmedge
                 cabal
                 (pkgs.callPackage ./pkgs/wasm32-wasi-cabal.nix {
                   inherit flavour;
                 })
-                proot
-                wasm-run
+                # proot
+                # wasm-run
               ];
             };
           wasm32-wasi-ghc-gmp =
