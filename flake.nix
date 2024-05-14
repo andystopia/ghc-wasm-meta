@@ -23,7 +23,7 @@
                 deno
                 pkgs.cacert
                 nodejs
-                bun
+                # bun
                 binaryen
                 wabt
                 wasmtime

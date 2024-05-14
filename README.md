@@ -1,5 +1,6 @@
 # `ghc-wasm-meta`
 
+I REMOVED BUN SINCE IT BREAKS ON ARM QEMU (host: arm64, dest: amd64)
 [![Chat on Matrix](https://matrix.to/img/matrix-badge.svg)](https://matrix.to/#/#haskell-wasm:matrix.terrorjack.com)
 
 This repo provides convenient methods of using x86_64-linux binary
